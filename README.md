@@ -1,10 +1,10 @@
-# Project Title
+# DRF_eCommerce
 
 Django REST API with Authentication, CRUD Operations, and Swagger Documentation
 
 ## Project Description
 
-This project is a Django REST Framework-based API that provides authentication functionality, CRUD operations for expenses, and comprehensive Swagger documentation. It is designed to serve as a robust backend for expense tracking applications, allowing users to register, sign in, verify their accounts, manage expenses, and access detailed API documentation.
+This project is a Django REST Framework-based API that provides authentication functionality, CRUD operations for expenses, and comprehensive Swagger documentation. It is designed to serve as a robust backend, allowing users to register, sign in, verify their accounts, manage expenses, and access detailed API documentation.
 
 The project utilizes Django REST Framework's GenericAPIView to handle user registration, sign-in, and account verification. It also employs generics such as RetrieveUpdateDestroyAPIView and ListCreateAPIView to facilitate CRUD operations for expenses. Authentication is implemented using `rest_framework_simplejwt` tokens, providing secure access to API endpoints.
 
