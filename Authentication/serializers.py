@@ -21,6 +21,10 @@ class RegisterSerializer(serializers.ModelSerializer):
     
     def create(self, validated_data):
         password=validated_data.pop("password")
+        # ISSUE::
+        # when create user should set password with set_password()
+        # as it hashed password if we do not use it when create user leads to :
+        # when login the user with auth.authenticate() will always failed to autheticate the user
         user=super().create(validated_data)
         user.set_password(password)
         user.save()
