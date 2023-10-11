@@ -27,8 +27,8 @@ To enhance the user experience, pagination is implemented using `PageNumberPagin
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/SalmaElmahdy/DRF_eCommerce.git`
+2. Navigate to the project directory: `cd DRF_eCommerce`
 3. Create a virtual environment: `python -m venv env`
 4. Activate the virtual environment:
    - On Windows: `.\env\Scripts\activate`
