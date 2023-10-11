@@ -8,4 +8,4 @@ class ExpensesSerializer(serializers.ModelSerializer):
     # amount=serializers.DecimalField(max_digits=10,decimal_places=2)
     class Meta:
         model= Expense
-        fields=['date','description','amount','category']
+        fields=['id','date','description','amount','category']
