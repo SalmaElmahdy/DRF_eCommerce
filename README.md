@@ -14,14 +14,12 @@ Additionally, a custom permission named `IsOwner` is implemented to ensure that 
 
 To enhance the user experience, pagination is implemented using `PageNumberPagination`. This allows the expenses to be displayed in a paginated manner, improving performance and usability.
 
-## Technologies Used
+## Technologies Used and Refernces
 
-- Django REST Framework
-- Django
-- Python
-- SQL lite
-- `rest_framework_simplejwt` for token-based authentication
-- Swagger for API documentation
+- Django REST Framework DRF https://www.django-rest-framework.org/
+- Django https://docs.djangoproject.com/en/4.2/
+- JWT for token-based authentication https://django-rest-framework-simplejwt.readthedocs.io/en/latest/
+- Swagger for API documentation for DRF https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#installation
 
 ## Installation and Usage
 
